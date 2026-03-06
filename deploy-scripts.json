@@ -1,0 +1,10 @@
+{
+  "name": "portfolio-deploy",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy:vercel": "npx vercel --prod",
+    "deploy:vercel:preview": "npx vercel",
+    "build:check": "npm run build && npm run lint",
+    "export": "npm run build && npx next export"
+  }
+}
