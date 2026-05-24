@@ -8,30 +8,21 @@ const Projects = () => {
       description: "A comprehensive vehicle rental platform that connects vehicle owners with renters. Features include user authentication, vehicle listings, booking management, and payment integration.",
       techStack: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
       githubLink: "https://github.com/kalviumcommunity/S86_Charitha_Capstone_DriveHub.git",
-      liveLink: "#", // Placeholder - user needs to add actual deployed link
+      liveLink: "https://capstonedrivehub.netlify.app/", // Placeholder - user needs to add actual deployed link
       featured: true,
       status: "Completed"
     },
     {
       id: 2,
-      title: "Project Title 2",
-      description: "Add your second project description here. This is a placeholder for your next amazing project.",
-      techStack: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
-      githubLink: "#", // Placeholder
-      liveLink: "#", // Placeholder
-      featured: false,
-      status: "Coming Soon"
+      title: "Signal Sync",
+      description: "A production-level traffic congestion analytics system that provides actionable insights for urban traffic management using machine learning and data visualization.",
+      techStack: ["Python", "flask", "Pandas", "NumPy", "Matplotlib", "scikit-learn"],
+      githubLink: "https://github.com/kalviumcommunity/S86_0226_DataDrivers_DataScienceFoundation_SignalSync", // Placeholder
+      liveLink: "https://github.com/kalviumcommunity/S86_0226_DataDrivers_DataScienceFoundation_SignalSync", // Placeholder
+      featured: true,
+      status: "Completed"
     },
-    {
-      id: 3,
-      title: "Project Title 3", 
-      description: "Add your third project description here. This is a placeholder for another exciting project.",
-      techStack: ["Python", "Django", "PostgreSQL", "Docker"],
-      githubLink: "#", // Placeholder
-      liveLink: "#", // Placeholder
-      featured: false,
-      status: "Coming Soon"
-    }
+
   ];
 
   const handleLinkClick = (url: string, projectTitle: string) => {
